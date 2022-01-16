@@ -6,6 +6,7 @@ body{
     width: 100%;
 }
 section {    
+    padding: 0 80px;
     background-color: #ffffff;
     
 }
@@ -86,7 +87,6 @@ a{
 }
 
 .name-text {
-    margin-left: 80px;
     margin-bottom: 200px;
 }
 
@@ -185,6 +185,9 @@ a{
         flex-wrap: wrap;
         flex-direction: column;
         align-items: center;
+    }
+    section{
+        padding: 10px;
     }
 
 }
