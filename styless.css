@@ -3,10 +3,11 @@ body{
     padding: 0px;
     border: 0px;
     font-family: 'Trocchi', serif;
-    width: 100vw;
+    width: 100%;
 }
 section {    
     background-color: #ffffff;
+    
 }
 
 footer {
@@ -126,6 +127,7 @@ a{
     display: flex;
     justify-content: space-around;
     padding: 80px;
+    
 }
 .sub-section-alternative{
     display: flex;
@@ -150,7 +152,7 @@ a{
     box-shadow: 5px 5px 20px rgb(134, 123, 123);
     margin: 10px;
     border-radius: 5%;
-    transition: all 2s;
+    transition: all 1s;
 
 }
 .project-card:hover{
@@ -175,6 +177,14 @@ a{
     .sub-section{
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 
 }
@@ -226,5 +236,12 @@ display: none;
         display: none;
     }
 
+}
+
+@media screen and (max-width: 500px){
+    .name-text {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
 }
 
