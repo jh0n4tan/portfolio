@@ -148,12 +148,23 @@ a{
     height: 350px;
     box-shadow: 5px 5px 20px rgb(134, 123, 123);
     margin: 10px;
+    border-radius: 5%;
+    transition: all 2s;
 
 }
+.project-card:hover{
+    width: 400px;
+    height: 450px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    margin: 10px;   
+}
+
 .project-container{
     display: flex;
     justify-content: space-around;
 }
+
+
 
 @media only screen and (max-width:1000px){
     .project-container{
