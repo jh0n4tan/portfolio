@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,43 +8,67 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Trocchi&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styless.css"/ >
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="./styless.css" />
+    <link rel="stylesheet" href="./styless1.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>::::Welcome:::::</title>
 </head>
+
 <body>
-    <section class="topofall">
-        <nav>
-            <img class ="icon-logo" src="./images/iguana.png" alt="icon">
-            <ul id="nav-list">
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <button class="hamburger" id="hamburger"> 
-                <i class="fa fa-arrow-left" aria-hidden="true"></i>
-            </button>
+    <section class="topofall" id="main">
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container-fluid float-end">
+                <a class="navbar-brand" href="main"><img src="./images/iguana.png" alt="main icon"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-0 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#main">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">Link</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        <div class="name-area">
-            <div class="name-text">
-                <h1>Jhonatan</h1>
-                <p>Full Stack Developer</p>
-                <div class="button"><a href="#about-me">About me</a></div>
-           </div>
-           <div class="socials">
-               <div><a href="https://www.instagram.com/?hl=es-la" class="social">
-                    <img src="./images/github.png" width="50px" height="50px" alt="git">
-               </a></div>
-                <div><a href="https://github.com/" class="social">
-                    <img src="./images/gmail.png" width="50px" height="50px" alt="gmail">
-                </a></div>
-                <div><a href="https://twitter.com/" class="social">
-                    <img src="./images/instagram.png" width="50px" height="50px" alt="insta">
-                </a></div>
-       </div>
+
+        <div class="container" style="padding-top: 25vh;">
+            <div class="row">
+                <div class="col">
+                    <p class="fs-1">Jhonatan</p>
+                    <p class="fs-6">Full Stack Developer</p>
+                    <button type="button" class="btn btn-primary"><a href="#about-me" class="text-white">About me</a></button>
+                </div>
+
+                <div class="col">
+                    <div class=" d-flex align-content-end justify-content-end"><a
+                            href="https://www.instagram.com/?hl=es-la" class="social "><img src="./images/github.png"
+                                width="50px" height="50px" alt="git"></a></div>
+                    <div class=" d-flex align-content-end justify-content-end"><a href="https://github.com/"
+                            class="social"><img src="./images/gmail.png" width="50px" height="50px" alt="gmail"></a>
+                    </div>
+                    <div class=" d-flex align-content-end justify-content-end">
+                        <a href="https://twitter.com/" class="social"><img src="./images/instagram.png" width="50px"
+                                height="50px" alt="insta"></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-       
+
+
+        </div>
     </section>
+
+
+
     <section class="sub-section" id="about-me">
         <div class="Information">
             <h2>About me</h2>
@@ -52,7 +77,7 @@
             </p>
         </div>
         <div class="headshot-container">
-            <img class="headshot" src="./images/headshot.jpg" alt="Jhonatan Quinteros Headshot"/>
+            <img class="headshot" src="./images/headshot.jpg" alt="Jhonatan Quinteros Headshot" />
         </div>
     </section>
     <section class="sub-section-alternative" id="projects">
@@ -62,28 +87,28 @@
                 <img class="project-img" src="./images/projects.jpg" alt="projects">
                 <h3>Project One</h3>
                 <p class="sub-text">this is my first project</p>
-                <hr/>
+                <hr />
                 <p class="sub-text"><a class="project-link" href="https://github.com/jh0n4tan">view here</a></p>
             </div>
             <div class="project-card">
                 <img class="project-img" src="./images/projects.jpg" alt="projects">
                 <h3>Project Two</h3>
                 <p class="sub-text">this is my first project</p>
-                <hr/>
+                <hr />
                 <p class="sub-text"><a class="project-link" href="https://github.com/jh0n4tan">view here</a></p>
             </div>
             <div class="project-card" class="project-card">
                 <img class="project-img" src="./images/projects.jpg" alt="projects">
                 <h3>Project Three</h3>
                 <p class="sub-text">this is my first project</p>
-                <hr/>
+                <hr />
                 <p class="sub-text"><a class="project-link" href="https://github.com/jh0n4tan">view here</a></p>
             </div>
             <div class="project-card" class="project-card">
                 <img class="project-img" src="./images/projects.jpg" alt="projects">
                 <h3>Project Four</h3>
                 <p class="sub-text">this is my first project</p>
-                <hr/>
+                <hr />
                 <p class="sub-text"><a class="project-link" href="https://github.com/jh0n4tan">view here</a></p>
             </div>
         </div>
@@ -93,6 +118,8 @@
         <p>jhonatquinteros@gmail.com</p>
     </footer>
 
-    <script src="./app.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    
 </body>
+
 </html>
