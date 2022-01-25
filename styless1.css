@@ -12,7 +12,12 @@ a img{
     background-color: lightskyblue;
 }
 
-.row{
+.sub-section-alternative{
+    height: 100vh;
+    background-color: red;
+}
+
+.container{
     height: 100vh;
 }
 
