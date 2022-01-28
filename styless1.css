@@ -22,6 +22,10 @@ a img{
 }
 .container-2{
     height: 75vh;
+    margin: auto;
+}
+.card {
+border-radius: 1%;    
 }
 
 @media screen and (max-width: 770px){
@@ -29,7 +33,6 @@ a img{
         height: 1600px;
     }
 }
-
 
 .headshot{
     width: 20rem;
